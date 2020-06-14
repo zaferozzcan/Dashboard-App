@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from 'react-router-dom'
-function SignedInLins(){
+function SignedInLink(){
     return (
         <div>
             <ul className="right">
@@ -12,4 +12,4 @@ function SignedInLins(){
     )
 }
 
-export default SignedInLins;
+export default SignedInLink;

@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SignedInLink from "./SignedInLink";
+import SignedOutLink from "./SignedOutLink";
+
+
 
 function Navbar(){
     return (
@@ -8,6 +11,7 @@ function Navbar(){
            <div className="container">   
                 <Link to="/" className = "brand-logo"> Zafer Ozcan </Link>
                 <SignedInLink />
+                <SignedOutLink />
            </div>
        </nav>
     )
