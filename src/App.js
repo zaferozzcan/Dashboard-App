@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import Navbar from './components/layout/Navbar'
-import Dashboard from '../src/components/dashboard/Dashboardnpm '
+import Dashboard from '../src/components/dashboard/Dashboard'
 import ProjectDetails from "./components/projects/ProjectDetails"
 
 class App extends Component {
