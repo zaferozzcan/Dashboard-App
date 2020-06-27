@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-function SignedOutLink() {
+const SignedOutLinks = () => {
   return (
     <div>
       <ul className="right">
@@ -12,4 +12,4 @@ function SignedOutLink() {
   )
 }
 
-export default SignedOutLink;
+export default SignedOutLinks
